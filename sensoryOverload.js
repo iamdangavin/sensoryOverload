@@ -44,7 +44,7 @@ $.fn.sensoryOverload = function(settings) {
 			// Add body Class
 			body.addClass('sensory-activated');
 			
-			$(options.container).find('.'+options.active).removeClass(options.active);
+			me.find('.'+options.active).removeClass(options.active);
 			
 			randomize = Math.floor(Math.random() * 1000);
 			
@@ -91,7 +91,6 @@ $.fn.sensoryOverload = function(settings) {
 
 $.fn.sensoryOverload.defaults = {
 	'delay': 100,				// Delay between sensory items
-	'container': '[data-sensory-overload]', // Container of your items,
 	'items': '[data-sensory-item]', // Items  to flash
 	'active': 'activated'		// Active class for items
 };
