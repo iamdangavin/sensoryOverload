@@ -52,7 +52,6 @@ Rapidly shuffle through elements on the page when the page is scrolling.
 <h3>Defaults/Settings</h3>
 ```javascript
 	'delay': 100,				// Delay between sensory items
-	'container': '[data-sensory-overload]', // Container of your items,
 	'items': '[data-sensory-item]', // Items  to flash
 	'active': 'activated'		// Active class for items
 ```
