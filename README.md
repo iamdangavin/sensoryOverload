@@ -1,6 +1,8 @@
 sensoryOverload
 ===============
 
+Rapidly shuffle through elements on the page when page is scrolling.
+
 <h3>HTML</h3>
 ```html
 <section data-sensory-overload>
